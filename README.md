@@ -22,3 +22,7 @@ Before:  [a1c.o A1c.o a2016c.o a10c.o a2c.o A2c.o a11c.o]
 After:  [A1c.o A2c.o a1c.o a2c.o a10c.o a11c.o a2016c.o]
 ```
 
+### Notes
+
+This is a space-time tradeoff version (this use more memory) of the algorithm used by natsort. Take a look at natsort if you have many CPU resources but no memory: https://github.com/facette/natsort
+
